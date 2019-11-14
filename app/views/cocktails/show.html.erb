@@ -1,1 +1,17 @@
-show.html.erb
+<h1>Cocktail Information</h1>
+
+<% @cocktail.doses.each do |dose| %>
+  <p><%= dose.description %></p>
+  <p><%= dose.ingredient.name %></p>
+<% end %>
+
+<br>
+<%= link_to 'New Dose', new_cocktail_dose_path(@cocktail), class: "btn btn-primary" %>
+<br>
+<br>
+<br>
+<br>
+<br>
+<%= link_to "Back to all cocktails", cocktails_path, class: "btn btn-primary" %>
+
+

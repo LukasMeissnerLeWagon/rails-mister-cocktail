@@ -1,1 +1,8 @@
-new.html.erb
+<%= simple_form_for [@cocktail, @dose] do |f| %>
+  <%= f.input :description %>
+  <%= f.select :ingredient_id, Ingredient.all.pluck(:name, :id), {prompt:'select'} %>
+  <%= f.submit "add a dose", class: "btn btn-primary" %>
+  <br>
+<% end %>
+
+
