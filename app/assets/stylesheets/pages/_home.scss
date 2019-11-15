@@ -1,1 +1,73 @@
 // Specific CSS for your home-page
+h1 {
+  opacity: .7;
+  font-family: 'Pacifico', cursive;
+  text-shadow: 0 0 10px #ef6832;
+}
+
+.card-category {
+  background-size: cover;
+  background-position: center;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+  margin: 10px;
+  opacity: .9;
+}
+
+.card-category-background {
+  background-size: cover;
+  background-position: center;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: white;
+  font-size: 24px;
+  font-weight: bold;
+  text-shadow: 1px 1px 3px rgba(0,0,0,0.2);
+  border-radius: 5px;
+  box-shadow: 0 0 20px rgba(0,0,0,1);
+  margin: 50px;
+}
+
+.container-cocktails {
+  margin: 40px;
+}
+
+.container-banner {
+  position: relative;
+  text-align: center;
+  color: white;
+}
+
+.bottom {
+  position: absolute;
+  bottom: 15px;
+}
+
+.name-cocktail-card a {
+  color: white;
+  opacity: .5;
+  font-family: 'Pacifico', cursive;
+}
+
+a.btn.btn-primary {
+  color: white;
+  text-shadow: 0 0 10px #ef6832;
+  background: #090A13;
+  border-color: #090A13;
+  text-align: center;
+  margin: 20px;
+  opacity: .7;
+  font-family: 'Pacifico', cursive;
+}
+
+
