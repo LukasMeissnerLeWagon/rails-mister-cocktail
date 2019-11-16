@@ -3,6 +3,12 @@ h1 {
   opacity: .7;
   font-family: 'Pacifico', cursive;
   text-shadow: 0 0 10px #ef6832;
+  margin: 20px;
+}
+
+p {
+  color: white;
+  text-shadow: 0 0 2px #ef6832;
 }
 
 .card-category {
@@ -65,7 +71,7 @@ a.btn.btn-primary {
   background: #090A13;
   border-color: #090A13;
   text-align: center;
-  margin: 20px;
+  margin: 15px;
   opacity: .7;
   font-family: 'Pacifico', cursive;
 }
